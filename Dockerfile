@@ -8,4 +8,4 @@ ENV GITHUB_PAT $GITHUB_PAT
 
 # Install packages
 RUN R -e 'install.packages("remotes")'
-RUN R -e 'remotes::install_github("cfgoWidgets", auth_token = "${GITHUB_PAT}")'
+RUN R -e 'remotes::install_github("TFcfgo/cfgoWidgets", auth_token = "${GITHUB_PAT}")'
