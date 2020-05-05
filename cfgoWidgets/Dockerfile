@@ -4,7 +4,8 @@ FROM openanalytics/r-base
 RUN apt-get update && apt-get install -y \
 
 sudo \
-libcurl4-gnutls-dev
+libcurl4-gnutls-dev \
+libssl-dev
 
 ARG GITHUB_PAT
 ENV GITHUB_PAT $GITHUB_PAT
