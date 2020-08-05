@@ -42,7 +42,7 @@ jobs:
             if (value < 100) warning(name, ": ", value, "%")
           }
           
-          if (tests_list$totalcoverage < 100) stop("Code Coverage not 100%")
+          if (tests_list$totalcoverage < 80) stop("Code Coverage below 80%")
         shell: Rscript {0}
           
       - name: Example coverage
