@@ -1,9 +1,6 @@
-# GitHub Action Workflow Templates for Continuous Integration.
+# gh-actions
 
 Currently these workflows serve R repos only!
 
-The following workflows are served for every R-related package (standardized):
-- R CMD Check to check whether package might be installed in production environment  
-  Environment is served by Docker Container cfgo/Docker:cfgoApps_Controlling for every shiny-related repo/package and cfgo/Docker:API for any plumber API related repo/package
-- lintr to suggest linting changes
-- covr to calculate and report (in HTML) overall testing and example coverage of the package
+This repo is separated in the Docker and Template section.  
+Docker is directly connected to [Docker Hub](https://hub.docker.com/repository/docker/cfgo/gh-actions/builds) while Templates provides Templates for GitHub Action workflows currently served across all R-related GitHub repos in cfgo organization.
