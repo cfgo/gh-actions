@@ -1,5 +1,4 @@
-# gh-actions
-Repo for GitHub Action Workflow Templates for Continuous Integration.
+# GitHub Action Workflow Templates for Continuous Integration.
 
 Currently these workflows serve R repos only!
 
