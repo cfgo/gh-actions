@@ -12,6 +12,9 @@ jobs:
     
     strategy:
       fail-fast: false
+      
+    env:	
+      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
 
     steps:
       - uses: actions/checkout@v2
