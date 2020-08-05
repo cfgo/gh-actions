@@ -1,4 +1,4 @@
-name: R-CMD-Ubuntu
+name: R-CMD-Production
 
 on:
   pull_request:
