@@ -1,4 +1,4 @@
-Dockerfiles
+# Docker
 
 These directories contain the Dockerfile for cfgo/gh-actions:base and cfgo/gh-actions:covr in [DockerHub](https://hub.docker.com/repository/docker/cfgo/gh-actions/).
 
