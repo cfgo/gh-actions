@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-18.04
     container: cfgo/gh-actions:covr
     
+    strategy:
+      fail-fast: false
+      
+    env:	
+      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+    
     steps:
       - uses: actions/checkout@v2
     
