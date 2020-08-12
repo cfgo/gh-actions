@@ -17,6 +17,6 @@ Supports the following workflows:
 - `covr.yml`
 
 ### basic-plumber
-**Special Case**: Supports the following workflows but only in  [`cfgo/cfgoAPI](https://github.com/cfgo/cfgoAPI/)
+**Special Case**: Supports the following workflows but only in  [`cfgo/cfgoAPI`](https://github.com/cfgo/cfgoAPI/)
 - `lint.yml`
 - `rcmd-production.yml`
